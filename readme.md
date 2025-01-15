@@ -6,7 +6,7 @@ This repository demonstrates a monorepo setup using [SST](https://sst.dev), desi
 
 •	**Lambda Function with SQS**: A serverless function integrated with Amazon SQS.
 
-•	**Express** Server: A TypeScript-based Express server, compiled and containerized via a Dockerfile for deployment on ECS.
+•	**Express Server**: A TypeScript-based Express server, compiled and containerized via a Dockerfile for deployment on ECS.
 
 •	**Common Package**: A shared library containing reusable code, accessible across all programs in the monorepo.
 
