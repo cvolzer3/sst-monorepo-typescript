@@ -1,0 +1,36 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+
+    "rootDir": "./src",
+    "outDir": "dist",
+    "baseUrl": ".",
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+
+    "paths": {
+      "@my-workspace/*": ["./packages/*"],
+      "@controllers/*": ["./src/controllers/*"],
+      "@lib/*": ["./src/lib/*"],
+      "@queries/*": ["./src/queries/*"],
+      "@platforms/*": ["./src/platforms/*"],
+      "@services/*": ["./src/services/*"],
+      "@custom-types/*": ["./src/types/*"],
+      "@utils/*": ["./src/utils/*"]
+    }
+  },
+  // NOTE: ./*.ts is required to pull in the sst-env.d.ts file
+  "include": ["src/**/*", "./*.ts"],
+  "exclude": ["node_modules"],
+  "tsc-alias": {
+    "verbose": true,
+    "resolveFullPaths": true,
+    "fileExtensions": {
+      "inputGlob": "{js,jsx,mjs}",
+      "outputCheck": ["js", "json", "jsx", "mjs"]
+    }
+  }
+}

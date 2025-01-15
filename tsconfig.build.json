@@ -1,0 +1,15 @@
+{
+  "files": [],
+  "references": [
+    // list every prject in here
+    {
+      "path": "./packages/common"
+    },
+    {
+      "path": "./packages/function"
+    },
+    {
+      "path": "./packages/app-server"
+    }
+  ]
+}

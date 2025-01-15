@@ -1,0 +1,25 @@
+node_modules
+
+# Keep environment variables out of version control
+.env
+.env.local
+.env.development
+.env-aws
+
+# sst
+.sst
+
+.DS_Store
+
+# VS Code
+*.code-workspace
+*.vscode
+
+# Build files
+*.build/*
+*/.build/*
+*/build/*
+*.dist/*
+*/.dist/*
+*/dist/*
+**/dist/*v

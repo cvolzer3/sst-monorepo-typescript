@@ -1,0 +1,1 @@
+Whenever you make a change, you must rebuild this project. You can do that manually within this common repo, or you can run `npm i` from the directory using your change. Running `npm i` from the directory using your change will trigger the `prepare` script in this repo.

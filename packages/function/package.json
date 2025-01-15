@@ -1,0 +1,19 @@
+{
+  "name": "function",
+  "version": "0.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@my-workspace/common": "^0.0.0",
+    "@aws-sdk/client-sqs": "^3.726.0"
+  },
+  "devDependencies": {
+    "sst": "*",
+    "tsc-alias": "^1.8.10",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.7.2"
+  }
+}
